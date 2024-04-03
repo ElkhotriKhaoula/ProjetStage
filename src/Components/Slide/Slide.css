@@ -1,0 +1,46 @@
+button{
+
+    background-color: #000; /* Noir */
+    color: #fff; /* Texte blanc */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.3s, opacity 0.3s;
+    }
+    
+button:hover {
+    transform: scale(1.2); /* Augmenter la taille au survol */
+    opacity: 0.7;
+    }
+
+p {
+    color: black; /* Couleur du texte */
+    font-size: 18px; /* Taille de la police */
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif; /* Police de caractère */
+    text-transform: uppercase;
+}
+
+.description p{
+
+        font-size: 16px; /* Taille de la police */
+        line-height: 1.5; /* Hauteur de ligne */
+        color: #333; /* Couleur du texte */
+        text-align: center;
+}
+    
+.description {
+    background-color: #f8f9fa; /* Couleur de fond */
+    padding: 20px; /* Espacement intérieur */
+    border-radius: 10px; /* Bord arrondi */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre */
+}
+
+.description h2 {
+    font-size: 24px; /* Taille de la police pour le titre */
+    color: #333; /* Couleur du titre */
+    margin-bottom: 10px; /* Marge en bas */
+}
+
