@@ -22,14 +22,14 @@ export default function Slide() {
                         <img src={image2} className="d-block w-100 mx-auto custom-img-height" style={{height:"600px"}} alt="..." />
                         <div class="carousel-caption d-none d-md-block">
                             <p>Bienvenue ! Connectez-vous maintenant :</p> 
-                            <button>connexion</button>
+                            <Link to={"/LoginPage"}><button>connexion</button></Link> 
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img src={image1} className="d-block w-100 mx-auto custom-img-height" style={{height:"600px"}} alt="..." />
                         <div class="carousel-caption d-none d-md-block">
                             <p>Bienvenue ! Connectez-vous maintenant :</p>
-                            <button>connexion</button>
+                            <Link to={"/LoginPage"}><button>connexion</button></Link> 
                         </div>
                     </div>
                 </div>
